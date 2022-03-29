@@ -46,12 +46,15 @@ def handle_message(event):
     for team in search.team_list.keys():
         if text in search.team_list[team][1]:
             team_name = team
-    if len(team_name)>0:
+    if team_name:
+        # reply team members
+        team_member=search.team_member(team_name)
         line_bot_api.reply_message(
             event.reply_token,
-            TextSendMessage(text=search.team_member(team_name))
+            TextSendMessage(text=team_member)
         )
     else:
+        # reply the player's cheer song lylic
         player_lylic=search.search_player_to_lylic(text)
         line_bot_api.reply_message(
             event.reply_token,
