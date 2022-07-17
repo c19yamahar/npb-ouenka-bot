@@ -1,4 +1,4 @@
-from data import BayStars, Dragons, Eagles, Hawks, Carp, Tigers, Marines, Buffaloes, Swallows, Giants, Lions
+from data import BayStars, Dragons, Eagles, Hawks, Carp, Tigers, Marines, Buffaloes, Swallows, Giants, Lions, Fighters
 
 # Set alias of each team's name
 Buffaloes_name=["オリックス","おりっくす","バファローズ","ばふぁろーず","オリックスバファローズ","おりっくすばふぁろーず"]
@@ -26,7 +26,8 @@ team_list={
     "Buffaloes":[Buffaloes.data,Buffaloes_name],
     "Swallows":[Swallows.data,Swallows_name],
     "Giants":[Giants.data,Giants_name],
-    "Lions":[Lions.data,Lions_name]
+    "Lions":[Lions.data,Lions_name],
+    "Fighters":[Fighters.data,Fighters_name]
 }
 
 # find and return team member
