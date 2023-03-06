@@ -1,4 +1,4 @@
-from data import BayStars, Dragons, Eagles, Hawks, Carp, Tigers, Marines, Buffaloes, Swallows, Giants, Lions, Fighters
+from data import BayStars, Dragons, Eagles, Hawks, Carp, Tigers, Marines, Buffaloes, Swallows, Giants, Lions, Fighters,Samurai
 
 # Set alias of each team's name
 Buffaloes_name=["オリックス","おりっくす","バファローズ","ばふぁろーず","オリックスバファローズ","おりっくすばふぁろーず"]
@@ -13,6 +13,7 @@ Dragons_name=["中日","ちゅうにち","ドラゴンズ","どらごんず","�
 Fighters_name=["日ハム","にちはむ","ファイターズ","ふぁいたーず","北海道日本ハムファイターズ","ほっかいどうにっぽんはむふぁいたーず"]
 BayStars_name=["横浜","よこはま","バファローズ","べいすたーず","横浜DeNAベイスターズ","よこはまでぃーえぬえーべいすたーず"]
 Lions_name=["西武","せいぶ","ライオンズ","らいおんず","埼玉西武ライオンズ","さいたませいぶらいおんず"]
+Samurai_name=["WBC","侍ジャパン","さむらい","侍"]
 
 # team data list
 team_list={
@@ -27,7 +28,8 @@ team_list={
     "Swallows":[Swallows.data,Swallows_name],
     "Giants":[Giants.data,Giants_name],
     "Lions":[Lions.data,Lions_name],
-    "Fighters":[Fighters.data,Fighters_name]
+    "Fighters":[Fighters.data,Fighters_name],
+    "Samurai":[Samurai.data,Samurai_name]
 }
 
 # find and return team member
